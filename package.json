@@ -1,20 +1,23 @@
 {
-  "name": "@joejordan/CramBit",
-  "description": "",
-  "version": "1.0.0",
+  "name": "crambit",
+  "description": "A Solidity library designed to cram as many values into as small a space as possible",
+  "version": "0.1.0",
   "author": {
-    "name": "joejordan",
+    "name": "Joe Jordan",
     "url": "https://github.com/joejordan"
   },
+  "bugs": {
+    "url": "https://github.com/joejordan/CramBit/issues"
+  },
   "devDependencies": {
-    "@commitlint/cli": "^17.2.0",
-    "@commitlint/config-conventional": "^17.2.0",
-    "commitizen": "^4.2.5",
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "commitizen": "^4.2.6",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.2",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
-    "prettier-plugin-solidity": "^1.0.0",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "prettier-plugin-solidity": "^1.1.0",
     "rimraf": "^3.0.2",
     "solhint": "^3.3.7",
     "solhint-plugin-prettier": "^0.0.5"
@@ -28,6 +31,7 @@
     "solidity",
     "template"
   ],
+  "license": "MIT",
   "packageManager": "yarn@3.2.4",
   "private": true,
   "resolutions": {
