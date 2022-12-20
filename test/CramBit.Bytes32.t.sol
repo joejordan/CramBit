@@ -19,7 +19,7 @@ contract CramBitBytes32Test is PRBTest, StdCheats {
 
     function testBytes32TwoValues() public {
         CramBit.PackBytes32[] memory packInstructions = new CramBit.PackBytes32[](2);
-    
+
         bytes32 value1 = 0x00000000000000000000000000000000ffffffffffffffffffffffffffffffff; // 16 bytes max
         bytes32 value2 = 0x00000000000000000000000000000000f1f2f3f4f5f6f7f8f9f0fafbfcfdfeff; // 16 bytes max
         // packed value: fffffffffffffffffffffffffffffffff1f2f3f4f5f6f7f8f9f0fafbfcfdfeff
@@ -43,12 +43,11 @@ contract CramBitBytes32Test is PRBTest, StdCheats {
         // assert that unpacked values match the original values
         assertEq(unpackedValues[0], uint256(value1));
         assertEq(unpackedValues[1], uint256(value2));
-
     }
 
     function testBytes32ThreeValuesWithSpace() public {
         CramBit.PackBytes32[] memory packInstructions = new CramBit.PackBytes32[](4);
-    
+
         uint256 value1 = 7; // 3 bytes max (111)
         uint256 value2 = 2; // 2 bytes max (10)
         uint256 value3 = 1; // 1 bytes max (1)
@@ -81,7 +80,5 @@ contract CramBitBytes32Test is PRBTest, StdCheats {
         assertEq(unpackedValues[0], uint256(value1));
         assertEq(unpackedValues[1], uint256(value2));
         assertEq(unpackedValues[2], uint256(value3));
-
     }
-
 }

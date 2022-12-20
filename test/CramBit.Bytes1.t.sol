@@ -42,7 +42,6 @@ contract CramBitBytes1Test is PRBTest, StdCheats {
         // assert that unpacked values match the original values
         assertEq(unpackedValues[0], uint8(value1));
         assertEq(unpackedValues[1], uint8(value2));
-
     }
 
     function testBytes1ThreeValues() public {
@@ -73,7 +72,6 @@ contract CramBitBytes1Test is PRBTest, StdCheats {
         assertEq(unpackedValues[0], uint8(value1));
         assertEq(unpackedValues[1], uint8(value2));
         assertEq(unpackedValues[2], uint8(value3));
-
     }
 
     function testBytes1ThreeValuesWithSpace() public {
@@ -111,7 +109,6 @@ contract CramBitBytes1Test is PRBTest, StdCheats {
         assertEq(unpackedValues[0], value1);
         assertEq(unpackedValues[1], value2);
         assertEq(unpackedValues[2], value3);
-
     }
 
     function testBytes1EightValues() public {
@@ -161,7 +158,5 @@ contract CramBitBytes1Test is PRBTest, StdCheats {
         assertEq(unpackedValues[5], value6);
         assertEq(unpackedValues[6], value7);
         assertEq(unpackedValues[7], value8);
-
     }
-
 }
