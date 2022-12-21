@@ -1,7 +1,7 @@
 {
   "name": "crambit",
   "description": "A Solidity library designed to cram as many values into as small a space as possible",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Joe Jordan",
     "url": "https://github.com/joejordan"
