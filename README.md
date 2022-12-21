@@ -46,7 +46,7 @@ crambit=lib/CramBit/src/
 
 ### Node.js
 
-```sh
+```bash
 yarn add crambit
 # or
 npm install crambit
@@ -75,7 +75,7 @@ Packing instructions can be created in several different ways. Ultimately, the `
    bytes1 packedBytes1 = CramBit.pack(packInstructions);
 ```
 
-Unpacking is pretty easy as well. CramBit has a helper function to convert your pack instructions into an unpack map, essentially an array of values that represent the maxBits for each packed value. Unpacking can be done like this:
+Unpacking is pretty easy as well. CramBit has a helper function called `packToUnpackMap` that will convert your pack instructions into an unpack map, essentially an array of values that represent the maxBits for each packed value. Unpacking can be done like this:
 
 ```solidity
    // generate an unpack map from our packInstructions
@@ -133,13 +133,13 @@ You will need the following software on your machine:
 
 Clone this repository:
 
-```sh
+```bash
 $ git clone https://github.com/joejordan/CramBit.git
 ```
 
 Then, inside the project's directory, run this to install dependencies:
 
-```sh
+```bash
 $ yarn install
 ```
 
