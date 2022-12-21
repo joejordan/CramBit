@@ -23,6 +23,10 @@
     "solhint": "^3.3.7",
     "solhint-plugin-prettier": "^0.0.5"
   },
+  "files": [
+    "/src",
+    "CHANGELOG.md"
+  ],
   "keywords": [
     "blockchain",
     "ethereum",
@@ -30,7 +34,9 @@
     "foundry",
     "smart-contracts",
     "solidity",
-    "template"
+    "solidity-library",
+    "evm",
+    "compression"
   ],
   "license": "MIT",
   "packageManager": "yarn@3.2.4",
