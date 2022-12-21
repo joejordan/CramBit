@@ -51,7 +51,7 @@
     "clean": "rimraf cache out",
     "lint": "yarn lint:sol && yarn prettier:check",
     "lint:sol": "solhint \"{src,test}/**/*.sol\"",
-    "postinstall": "husky install",
+    "postinstall": "",
     "prettier:check": "prettier --check \"**/*.{json,md,sol,yml}\"",
     "prettier:write": "prettier --write \"**/*.{json,md,sol,yml}\""
   }
