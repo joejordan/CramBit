@@ -9,6 +9,7 @@
   "bugs": {
     "url": "https://github.com/joejordan/CramBit/issues"
   },
+  "homepage": "https://github.com/joejordan/CramBit/#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
@@ -33,7 +34,10 @@
   ],
   "license": "MIT",
   "packageManager": "yarn@3.2.4",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joejordan/CramBit"
+  },
   "resolutions": {
     "solhint/@solidity-parser/parser": "^0.14.5"
   },
